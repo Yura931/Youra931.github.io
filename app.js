@@ -34,6 +34,7 @@ function loginBtnClick(event) {
     }
     localStorage.setItem(USER_KEY, loginId.value);
     getUserInfo();
+    loginId.value = "";
 }
 loginBtn.addEventListener("click", loginBtnClick);
 
@@ -204,6 +205,7 @@ function logoutBtnClick(event) {
         localStorage.removeItem(USER_KEY);
         localStorage.removeItem(TODO_KEY);
         todoList = [];
+        todoUl.innerHTML = "";
         getUserInfo();
     }
 };

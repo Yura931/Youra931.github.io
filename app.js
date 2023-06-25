@@ -216,8 +216,6 @@ const bgImage = [
     "poppy-5397906_1920.jpg",
     "secret-3120483_1920.jpg",
     "hintersee-3601004_1920.jpg",
-    "architecture-3095716_1920.jpg",
-    "tree-3095683_1920.jpg",
 ];
 
 const chosenImage = bgImage[Math.floor(Math.random() * bgImage.length)];

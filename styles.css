@@ -155,7 +155,7 @@ input:valid ~ label {
 }
 
 .todo-input::placeholder {
-    color: #bfbfbf;
+    color: #fabdbdee;
 }
 
 .button-box {

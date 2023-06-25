@@ -189,11 +189,6 @@ todoAddBtn.addEventListener("click", addBtnClick);
 completeBtn.addEventListener("click", completeListPaint);
 incompleteBtn.addEventListener("click", completeListPaint);
 deleteAllBtn.addEventListener("click", deleteAllBtnClick);
-document.getElementById("todoText").addEventListener("keyup", function(event) {
-    if(event.keyCode == 13) {
-        addBtnClick(event);
-    }
-});
 
 function logoutBtnClick(event) {
     if(confirm("로그아웃 하시겠습니까?")) {

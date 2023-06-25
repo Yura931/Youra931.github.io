@@ -186,6 +186,7 @@ function deleteAllBtnClick(event) {
 }
 
 function inputEnter(event) {
+    event.preventDefault();
     if(event.keyCode == 13) {
         addBtnClick(event);
     }

@@ -121,7 +121,7 @@ input:valid ~ label {
 }
 
 .todo-box {
-    width: 800px;
+    width: 400px;
     height: auto;
     padding: 30px;
     background: transparent;

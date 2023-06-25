@@ -32,26 +32,28 @@
                     </div>
                 </div>
             </div>
-                    
-            <div class="todo-box">
-                <h1>Todo List</h1>
-                <div class="input-container">
-                    <input id="todoText" class="todo-input" placeholder="오늘 할 일" required>
-                    <span class="button-box"><button class="add-button">+</button></span>
-                </div>
-                <div class="filters">
-                    <div style="display: flex;">
-                        <div id="completeBtn" class="filter">완료</div>
-                        <div id="incompleteBtn" class="filter">진행중</div>
+            
+            <form>
+                <div class="todo-box">
+                    <h1>Todo List</h1>
+                    <div class="input-container">
+                        <input id="todoText" class="todo-input" placeholder="오늘 할 일" required>
+                        <span class="button-box"><button class="add-button">+</button></span>
                     </div>
-                    <div id="deleteAllBtn" class="delete-all">전체삭제</div>
+                    <div class="filters">
+                        <div style="display: flex;">
+                            <div id="completeBtn" class="filter">완료</div>
+                            <div id="incompleteBtn" class="filter">진행중</div>
+                        </div>
+                        <div id="deleteAllBtn" class="delete-all">전체삭제</div>
+                    </div>
+                    <div class="todos-container">
+                        <ul class="todos">     
+                        </ul>
+                    </div>
+                    <button id="logoutBtn">Log Out</button>
                 </div>
-                <div class="todos-container">
-                    <ul class="todos">     
-                    </ul>
-                </div>
-                <button id="logoutBtn">Log Out</button>
-            </div>
+            </form>
         </section>
     
     <script src="app.js"></script>

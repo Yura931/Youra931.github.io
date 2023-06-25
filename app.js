@@ -185,10 +185,17 @@ function deleteAllBtnClick(event) {
     }
 }
 
+function inputEnter(event) {
+    if(event.keyCode == 13) {
+        addBtnClick(event);
+    }
+}
+
 todoAddBtn.addEventListener("click", addBtnClick);
 completeBtn.addEventListener("click", completeListPaint);
 incompleteBtn.addEventListener("click", completeListPaint);
 deleteAllBtn.addEventListener("click", deleteAllBtnClick);
+document.getElementById("todoText").addEventListener("keyup", inputEnter);
 
 function logoutBtnClick(event) {
     if(confirm("로그아웃 하시겠습니까?")) {

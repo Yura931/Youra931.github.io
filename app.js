@@ -203,6 +203,7 @@ function logoutBtnClick(event) {
         event.preventDefault();
         localStorage.removeItem(USER_KEY);
         localStorage.removeItem(TODO_KEY);
+        todoList = [];
         getUserInfo();
     }
 };

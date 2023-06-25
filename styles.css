@@ -5,7 +5,7 @@
 }
 
 body {
-    background: url("/img/poppy-5397906_1920.jpg")no-repeat;
+    background: url("./img/poppy-5397906_1920.jpg")no-repeat;
     background-position: center;
     background-size: cover;
     height: 100%;

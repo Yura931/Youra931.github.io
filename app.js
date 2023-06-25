@@ -18,7 +18,7 @@ function getUserInfo() {
     if(userInfo !== null) {
         todoListForm.classList.remove(NONE_CLASS);
         loginForm.classList.add(NONE_CLASS);
-        document.querySelector(".todo-box h1").innerText = `${userInfo}의 작업목록`;
+        document.querySelector(".todo-box h1").innerText = `${userInfo}의 ToDo List`;
     } else {
         loginForm.classList.remove(NONE_CLASS);
         todoListForm.classList.add(NONE_CLASS);

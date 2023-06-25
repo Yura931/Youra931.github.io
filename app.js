@@ -205,9 +205,9 @@ logoutBtn.addEventListener("click", logoutBtnClick);
 
 
 const bgImage = [
-    "poppy-5397906_1920.jpg",
-    "secret-3120483_1920.jpg",
-    "hintersee-3601004_1920.jpg",
+    "flower-729514_1920.jpg",
+    "marguerite-729510_1920.jpg",
+    "marigold-1568646_1920.jpg"
 ];
 
 const chosenImage = bgImage[Math.floor(Math.random() * bgImage.length)];

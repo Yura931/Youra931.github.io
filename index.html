@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"></link>
+    <title>TODO-LIST</title>
+</head>
+<body>
+    
+        <div id="header-box">
+            <div class="clock-box">
+                <h1></h1>
+            </div>
+            <div class="weather-box">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <section>
+            <div class="form-box">
+                <div class="form-container">
+                    <div class="form-value">
+                        <form action="">
+                            <h2>Login</h2>
+                            <div class="inputbox">
+                                <input type="text" id="loginId" required autocomplete="off" max="8"/>
+                                <label for="loginId">name</label>
+                            </div>
+                            <button id="loginBtn">Log in</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+                    
+            <div class="todo-box">
+                <h1>Todo List</h1>
+                <div class="input-container">
+                    <input id="todoText" class="todo-input" placeholder="오늘 할 일" required>
+                    <span class="button-box"><button class="add-button">+</button></span>
+                </div>
+                <div class="filters">
+                    <div style="display: flex;">
+                        <div id="completeBtn" class="filter">완료</div>
+                        <div id="incompleteBtn" class="filter">진행중</div>
+                    </div>
+                    <div id="deleteAllBtn" class="delete-all">전체삭제</div>
+                </div>
+                <div class="todos-container">
+                    <ul class="todos">     
+                    </ul>
+                </div>
+                <button id="logoutBtn">Log Out</button>
+            </div>
+        </section>
+    
+    <script src="app.js"></script>
+    <script src="clock.js"></script>
+</body>
+</html>
